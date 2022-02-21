@@ -1,0 +1,99 @@
+::-moz-selection {
+	background-color: #1e46a5;
+}
+::selection {
+	background-color: #1e46a5;
+}
+body {
+	font: 400 1em/1.625em Roboto;
+	color: #777777;
+}
+h1 {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 3.75em;
+	color: #333333;
+}
+h2 {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 3em;
+	color: #333333;
+}
+h3 {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 2.25em;
+	color: #333333;
+}
+h4 {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 1.875em;
+	color: #333333;
+}
+h5 {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 1.375em;
+	color: #333333;
+}
+h6 {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 1.125em;
+	color: #333333;
+}
+.header.style-1 {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: left top;
+	background-image: url(//velikorodnov.com/dev/devcryptex/wp-content/themes/cryptex/images/header-style-1-bg.jpg);
+}
+.main-navigation > ul > li > a {
+	font-family: Roboto;
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.main-navigation > ul > li:hover > a {
+	color: #ffffff;
+}
+.sub-menu-wrap ul li a {
+	font-family: Roboto;
+	font-size: 1em;
+	font-weight: 400;
+	color: #ffffff;
+}
+.sub-menu-wrap ul li:hover > a {
+	color: #ffffff;
+}
+.sub-menu-wrap ul li.current-menu-item > a,
+.sub-menu-wrap ul li.current-menu-parent > a,
+.sub-menu-wrap ul li.current-menu-ancestor > a,
+.sub-menu-wrap ul li.current_page_item > a,
+.sub-menu-wrap ul li.current_page_parent > a,
+.sub-menu-wrap ul li.current_page_ancestor > a {
+	color: #ffffff;
+}
+.mobile-advanced > ul > li:hover > a,
+.mobile-advanced > ul > li.current-menu-item > a,
+.mobile-advanced > ul > li.current-menu-parent > a,
+.mobile-advanced > ul > li.current-menu-ancestor > a,
+.mobile-advanced > ul > li.current_page_item > a,
+.mobile-advanced > ul > li.current_page_parent > a,
+.mobile-advanced > ul > li.current_page_ancestor > a {
+	background-color: #51a3ff;
+}
+#footer[class*="footer"] {
+	background-color: #222222;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+[class*="footer"] .widget .widget-title {
+	color: #ffffff;
+}

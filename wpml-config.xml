@@ -1,0 +1,9 @@
+<wpml-config>
+	<admin-texts>
+		<key name="cryptex_widget_testimonials">
+			<key name="2">
+				<key name="title" />
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,62 @@
+
+.main-navigation {
+  > ul {
+    > li {
+      > a {
+        font-family: @menu_font_family;
+        font-size: @menu_font_size;
+        font-weight: @menu_font_weight;
+        text-transform: @menu_text_transform;
+        color: @main_menu_top_level_link_color;
+      }
+    }
+  }
+}
+
+.main-navigation {
+  > ul {
+    > li:hover {
+       > a {
+         color: @main_menu_top_level_hover_color;
+       }
+    }
+  }
+}
+
+.sub-menu-wrap {
+  ul {
+    li {
+      a {
+        font-family: @sub_menu_font_family;
+        font-size: @sub_menu_size;
+        font-weight: @sub_menu_weight;
+        color: @sub_menu_link_color;
+      }
+    }
+  }
+}
+
+.sub-menu-wrap ul li:hover > a {
+  color: @sub_menu_hover_color;
+}
+
+.sub-menu-wrap ul li.current-menu-item > a,
+.sub-menu-wrap ul li.current-menu-parent > a,
+.sub-menu-wrap ul li.current-menu-ancestor > a,
+.sub-menu-wrap ul li.current_page_item > a,
+.sub-menu-wrap ul li.current_page_parent > a,
+.sub-menu-wrap ul li.current_page_ancestor > a {
+  color: @sub_menu_active_color;
+}
+
+.mobile-advanced > ul > li:hover > a,
+.mobile-advanced > ul > li.current-menu-item > a,
+.mobile-advanced > ul > li.current-menu-parent > a,
+.mobile-advanced > ul > li.current-menu-ancestor > a,
+.mobile-advanced > ul > li.current_page_item > a,
+.mobile-advanced > ul > li.current_page_parent > a,
+.mobile-advanced > ul > li.current_page_ancestor > a
+{
+  background-color: @mobile_menu_bg_active_color;
+}
+
